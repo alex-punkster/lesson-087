@@ -6,4 +6,8 @@ metadata:
   app: test
 specs:
  replicas: 1
+ selector:
+  matchlabels:
+   app: test
+   
   
