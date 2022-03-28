@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: test
+  name: gke-test
 spec: 
   selector: 
     matchLabels: 
-      app: test
+      app: gke-test
   template: 
     metadata: 
       labels: 
-        app: test
+        app: gke-test
     spec: 
       containers: 
         - image: "gcr.io/prod-345015/lesson-087@sha256:a849f1cc603a0c1151d176d347147a8c0cdd419d8cd7ce16503ffa634cf4bfb7:latest"
-          name: test
+          name: gke-test
           ports: 
             - containerPort: 8080
               name: http
