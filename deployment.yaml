@@ -9,5 +9,5 @@ specs:
  selector:
   matchlabels:
    app: test
-   
+  template: ... 
   
