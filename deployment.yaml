@@ -10,3 +10,11 @@ spec:
     metadata:
       labels:
         app: test
+ spec:
+      containers:
+      - name: test
+        image: gcr.io/prod-345015/lesson-087@sha256:a849f1cc603a0c1151d176d347147a8c0cdd419d8cd7ce16503ffa634cf4bfb7:latest
+        ports:
+        - name: http
+          containerPort: 8080
+          protocol: TCP       
