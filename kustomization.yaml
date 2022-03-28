@@ -1,5 +1,5 @@
 commonLabels:
- app: Test
+ app: test
 resources:
  - deployment.yaml
  - service.yaml
