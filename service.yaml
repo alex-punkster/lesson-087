@@ -5,3 +5,6 @@ metadata:
 specs: 
   ports: 
     - port: 80
+  selector: 
+    app: test
+
